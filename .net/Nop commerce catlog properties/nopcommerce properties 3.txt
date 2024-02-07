@@ -1,0 +1,208 @@
+PROMOTION MODULE
+DISCOUNTS 
+Is active(Boolean)
+Name(String)
+Discount type(Enum)
+Use percentage(Boolean)
+Discount amount(Double)
+Requires coupon code(Boolean)==>Coupon Code(String)
+Start date(DateTime)
+End date(DateTime)
+Cumulative with other discounts(Boolean)
+Discount limitation(Enum)
+Admin comment(String)
+
+Edit Discount info
+		Is active(Boolean)
+		Name(String)
+		Discount type(Enum)
+		Use percentage(Boolean)==>Discount percentage(Double)
+						  Maximum discount amount(Double)
+		Requires coupon code(Boolean)==>Coupon code(int)
+		URL with coupon code(string)
+		Start date(DateTime)
+		End date(DateTime)
+		Cumulative with other discounts(Boolean)
+		Discount limitation(Enum)
+		Admin comment(String)
+
+Add a new discount requirement
+Discount requirement type(Enum)
+	Group name(String)
+
+Usage History	
+Used(String)
+Order Id(Int)
+Order total(Int)
+
+AFFILIATES
+Active(Boolean)
+First name(String)
+Last name(String)
+Email(String)
+Company(String)
+Country(Enum)
+State / province(Enum)
+County / region(Enum)
+City(String)
+Address 1(String)
+Address 2(String)
+Zip / postal code(Int)
+Phone number(Long)
+Fax number(Long)
+Admin comment(String)
+Friendly URL name(String)
+
+Edit
+	Affiliate info:
+	Affiliate URL(String)
+	Affiliated customers:
+	ID(Int)
+	Name(String)
+	View(Int)
+	Affiliated orders:
+	Start date(DateTime)
+	End date(DateTime)
+	Order status(Enum)
+	Payment status(Enum)
+	Shipping status(Enum)
+	
+NEWSLETTER SUBSCRIBERS:
+Email(String)
+Start date(DateTime)
+End date(DateTime)
+Active(Enum)
+Customer roles(Enum)
+
+CAMPAIGNS:
+Name(String)
+Subject(String)
+Body(String)
+Allowed message tokens(String)
+Planned date of sending(DateTime)
+Limited to store(Enum)
+Limited to customer role(Enum)
+
+CONTENT MANAGEMENT:
+Add new:
+	Title(String)
+	Body(String)
+Display:
+	Published(Boolean)
+	Include in top menu
+	Include in footer (column 1)
+	Include in footer (column 2)
+	Include in footer (column 3)
+Include in sitemap(Boolen)
+Password protected(Boolen)
+Customer roles(Enum)
+Limited to stores(Enum)
+Accessible when store closed(Boolen)
+Display order(int)
+System name(string)
+
+SEO:
+Search engine friendly page name(String)
+Meta title(String)
+Meta keywords(String)
+Meta description(String)
+
+MESSAGE TEMPLATES:
+Name(string)
+Subject(string)
+Body(string)
+BCC(string)
+Email account(string)
+Test template
+Is active(Boolen)
+Send immediately(Boolen)
+Attached static file(Boolen)
+Limited to stores(Enum)
+
+NEWS ITEMS:
+Title(string)
+Short description(string)
+Full description(string)
+Allow comments(Boolen)
+Start date(DateTime)
+End date(DateTime)
+Limited to stores(Enum)
+Published(Boolen)
+
+SEO:
+Search engine friendly page name(String)
+Meta title(String)
+Meta keywords(String)
+Meta description(String)
+
+NEWS COMMENTS:
+Created from(DateTime)
+Created to(DateTime)
+Approved(Enum)
+Message(string)
+
+
+BLOG POSTS:
+Title(string)
+Body(string)
+Body overview(string)
+Tags(string)
+Allow comments(Boolen)
+Include in sitemap(Boolen)
+Start date(Datetime)
+End date(DateTime)
+Limited to stores(Enum)
+
+SEO:
+Search engine friendly page name(String)
+Meta title(String)
+Meta keywords(String)
+Meta description(String)
+
+BLOG COMMENTS:
+Created from(DateTime)
+Created to(DateTime)
+Approved(Enum)
+Message(string)
+
+
+POLLS:
+Name(string)
+Published(Boolen)
+Show on home page(Boolen)
+Allow guests to vote(Boolen)
+Start date(DateTime)
+End date(DateTime)
+Limited to stores(string)
+System keyword(string)
+Display order(int)
+
+FOURM:
+Forum Group
+General
+Name
+Description
+Display Order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

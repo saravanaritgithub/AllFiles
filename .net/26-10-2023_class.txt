@@ -1,0 +1,38 @@
+class student                                 
+{
+string Name;
+string FatherName;
+int RollNo;
+double MobileNo;        
+char Section;
+
+
+Eating()
+walking()
+sleeping()
+Dancing()
+}
+
+class Employee
+{
+string Name;
+int id;
+String Department;
+Double MobileNo;
+
+working()
+eating()
+running()
+swimming()
+}
+
+class car
+{
+string ModelName;
+int VehicleNo;
+int Mileage;
+int weight;
+
+start()
+stop()
+}

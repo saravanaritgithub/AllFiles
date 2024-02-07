@@ -1,0 +1,141 @@
+CATALOG MODULE => PRODUCT (CLASS) PROPERTIES
+
+PRODUCT NAME (String)
+SHORT DESCRIPTION(String)
+FULL DESCRIPTION(String)
+SKU(String)
+Categories(Enum)
+Manufacturers(Enum)
+Published(Boolean)
+Product Tags(String)
+GTIN Golbal Trade Item Number(Integer)
+Manufacturer part Number(Integer)
+show on home page(Boolean) => Display Order(Integer)
+PRODUCT Type(Enum)
+Product Template(Byte)
+Visible Individualy(Boolean)
+Customer roles(Enum(String))
+Limited to Stores(Enum(String))
+vendor(Enum(String))
+Require other Products(Boolean) =>Required product IDs(Integer)
+								  Automatically add these products to the cart(Boolean)
+Allow customer reviews(Boolean)
+Available start date(DateTime)
+Available end date(DateTime)
+Mark as new(Boolean)
+Admin comment(String)
+
+PRICES (class)=> 
+PRICE(Double)
+Old PRICE(Double)
+Product Cost(Double)
+Disable buy button(Boolean)
+Disable wishlist button(Boolean)
+Available for pre-order(Boolean)=>Pre-order availability start date(DateTime)
+Call for price(Boolean)
+Customer enters price(Boolean)=>Minimum amount(Double)
+								Maximum amount(Double)
+PAngV (base price) enabled(Boolean)=>Amount in product(Double)
+									 Unit of product(Enum(String))
+									 Reference amount(Double)
+									 Reference Unit(String)
+Discounts(Enum)
+Tax exempt(Boolean)
+Tax category(Enum)
+Telecommunications, broadcasting and electronic services(Boolean)
+
+SHIPPING (class) =>
+Shipping Enabled(Boolean)
+Weight(Double)
+Length(Double)
+Width(Double)
+Height(Double)
+Free Shipping(Boolean)
+Shipping seperately(Boolean)
+Additional Shipping Charges(Double)
+Delivery Date(Enum)
+
+INVENTORY (class)=>Track Inventory
+
+Inventory Method(Enum)
+Stock quantity(Integer)
+Warehouse(Enum(String))
+Multiple Warehouse(Boolean)
+Display availability(Boolean)
+Minimum stock qty(Enum)
+Low stock activity(Enum)
+Notify for qty below(Integer)
+Backorders(Enum)
+Allow back in stock subscriptions(Boolean)
+Product availability range(Enum)
+Minimum cart qty(Enum)
+Maximum cart qty(Enum)
+Allowed quantities(Enum)
+Not returnable(Boolean)
+
+INVENTORY (class)=>Track Inventory by product attributes
+Warehouse(Enum(String))
+Display availability(Boolean)
+Minimum stock qty(Enum)
+Low stock activity(Enum)
+Product availability range(Enum)
+Minimum cart qty(Enum)
+Maximum cart qty(Enum)
+Allowed quantities(Enum)
+Allow only existing attribute combinations(Boolean)
+Not returnable(Boolean)
+
+INVENTORY (class)=>Dont Track Inventory
+Inventory method
+Minimum cart qty(Enum)
+Maximum cart qty(Enum)
+Allowed quantities(Enum)
+Not returnable(Boolean)
+
+Multimedia (Byte)
+Product Attributes(String)
+Specification Attributes(String)
+Gift Card (class) (Boolean) => Gift card type(Enum)
+					  Overridden gift card amount(Double)
+					  
+DOWNLOADABLE PRODUCT(class) =>
+Download file()
+Unlimited downloads
+Max. downloads
+Number of days(Integer)
+Download activation type
+Has user agreement(Boolean)=>User Aggrement Text(String)
+Has sample download file(Boolean)=>Sample download file(Byte)
+
+
+RENTAL (class)=>
+Is rental(Boolean)
+Rental period length(Integer)
+Rental period(Enum)
+
+RECURRING PRODUCT (class)=>
+Cycle Length(Integer)
+Cycle Period(Enum)
+Total Cycle(Integer)
+
+SEO (class)=>
+Search engine friendly page name(String)
+Meta title(String)
+Meta keywords(String)
+Meta description(String)
+
+RELLATED PRODUCTS=>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

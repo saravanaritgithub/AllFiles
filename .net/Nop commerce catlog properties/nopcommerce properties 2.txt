@@ -1,0 +1,205 @@
+CATLOG MODULE => CATEGORIES
+
+CATEGORY INFO (class):
+Name(string)
+Description(string)
+Parent category(string)
+Picture()
+
+MAPPING (class):
+Discounts(string)
+Limited to customer roles(Enum)
+Limited to stores(Enum)
+
+SEO (class):
+Search engine friendly page name(String)
+Meta title(String)
+Meta keywords(String)
+Meta description(String)
+
+MANUFACTURES (class):
+Name(string)
+Description(string)
+Picture()
+
+DISPLAY (class):
+Published(Boolen)
+Show on home page(Boolen)
+INCLUDE IN TOP MENU(Boolen)
+Allow customers to select page size(Boolen)
+Page size(int)
+Price range filtering(Boolen)
+Enter price range manually=>Price 'from',Price 'to'(Double)
+Display order(int)
+
+MAPPING (class):
+Discounts(string)
+Limited to customer roles(Enum)
+Limited to stores(Enum)
+
+
+SEO (class):
+Search engine friendly page name(String)
+Meta title(String)
+Meta keywords(String)
+Meta description(String)
+
+PRODUCT REVIEWS (class):
+Product(string)
+Store(string)
+Customer(string)
+Title(string)
+Review text(string)
+Replay text(string)
+Rating (int)
+Is approved (Boolen)
+Created on (DateTime)
+
+PRODUCT TAG (class):
+Tag Name(string)
+
+ATTRIBUTES (class):
+PRODUCT ATTRIBUTES=>
+Name(string)
+Description(string)
+Price adjustment(Double)
+Price adjustment. Use percentage(Boolen)
+Weight adjustment(Double)
+Cost(Double) 
+Is pre-selected(Boolen)
+Display order(int)
+
+SPECIFICTION ATTRIBUTES=>
+Name(string)
+Group(Enum)
+Display order(int)
+
+CHECKOUT ATTRIBUTES=>
+Name(string)
+Control type(Enum)
+Required(Boolen)
+Display order(int)
+Price adjustment(Double) 
+Weight adjustment(Double)
+Pre-selected(Boolen)
+
+
+SALES Module=> 
+
+ORDERS (class):
+Start Date(DateTime)
+End Date(Date Time)
+WarehouseEnum
+Product(String)
+Order status(Enum)
+Payment Status(Enum)
+Shipping Status(Enum)
+Vendor(Enum)
+Billing phone number(Long)
+Billing email address(String)
+Billing last name(String)
+Billing country-(Enum)
+Payment method-(Enum)
+Order notes(String)
+Go Directly to Order(String)
+Order(int)
+Created on(DateTime)
+Customer(string)
+Order status(Enum(string))
+Order subtotal(Double) 
+Order shipping(Double) 
+Order tax(Double) 
+Order total(Double) 
+Profit(Double) 
+Order subtotal => incl tax,excl tax (Double)
+Order subtotal discount => incl tax,excl tax (Double)
+Order shipping => incl tax,excl tax (Double)
+Payment method additional fee => incl tax,excl tax (Double)
+Order tax rates(Double)
+Order tax(Double)
+Order discount(Double)
+Order total(Double)
+Payment method(string)
+Payment status(string)
+Store(string)
+Order GUID(string)
+Customer IP address(string)
+Shipping method(string)
+Shipping status(string)
+
+ADDRESS (class):
+First name(string)
+Last name(string)
+Email(string)
+Company(string)
+Country(string)
+Canada(string)
+State / province(string)
+County / region(string)
+City(string)
+Address 1(string)
+Address 2(string)
+Zip / postal code(string)
+Phone number(Long)
+Fax number(Long)
+
+SHIPMENT DETAILS (class):
+Order(string)
+Tracking number(Double)
+Admin comment(string)
+Total weight(Double)
+Date shipped(DateTime)
+Date delivered(DateTime)
+
+ORDER NOTES (class):
+Created on(DateTime)	
+Note(string)	
+Attached file(Boolen)
+Display to customer(Boolen)
+
+
+RETURN REQUESTS (class):
+ID(int)	
+Product(string)
+Quantity(int)
+Quantity returned to stock(int)	
+Customer Name(string)	
+Order id(int)
+Return request status(Enum)
+Date(DateTime)
+
+RECURRING PAYMENTS (class):
+OrderID(int)	
+Customer Name(string)	
+Cycle length(int)	
+Cycle period(Enum)	
+Is active(Boolen)	
+Start date(DateTime)	
+Next payment date (DateTime)		
+Total cycles(int)
+Cycles remaining(int)
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

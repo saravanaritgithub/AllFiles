@@ -1,0 +1,6 @@
+@karryKart_HostAddress = http://localhost:5286
+
+GET {{karryKart_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

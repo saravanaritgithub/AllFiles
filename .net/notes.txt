@@ -1,0 +1,64 @@
+  ArrayList ord = new ArrayList();
+  ord.Add("Name:Rahul");
+  ord.Add("FoodName:Rice");
+  ord.Add("Quantity:10");
+  ord.Add("Addres:Tuticorin");
+  ord.Add("Mobile:98765432");
+  foreach (var item in ord)
+  {
+      Console.WriteLine(item);
+  }
+
+
+
+
+
+ ArrayList emp = new ArrayList();
+ emp.Add(1);
+ emp.Add("Rahul");
+ emp.Add("Tuticorin");
+ emp.Add("98765432");
+ foreach(var item in emp)
+ {
+     Console.WriteLine(item);
+ }
+
+
+
+
+
+                    ArrayList ord = new ArrayList();
+                    ord.Add("Name:Rahul");
+                    ord.Add("FoodName:Rice");
+                    ord.Add("Quantity:10");
+                    ord.Add("Addres:Tuticorin");
+                    ord.Add("Mobile:98765432");
+                    foreach (var item in ord)
+                    {
+                        Console.WriteLine(item);
+                    }
+                    break;
+                case 3:
+                    ArrayList Ticket = new ArrayList();
+                    Ticket.Add("Name:Lokesh");
+                    Ticket.Add("From:Chennai");
+                    Ticket.Add("To:Tuticorin");
+                    Ticket.Add("Date:16-11-2023");
+                    Ticket.Add("Mobile:987655679");
+                    foreach (var item in Ticket)
+                    {
+                        Console.WriteLine(item);
+                    } 
+                    break;
+                case 4:
+                    ArrayList Ticket = new ArrayList();
+                    Ticket.Add("Name:Lokesh");
+                    Ticket.Add("From:Chennai");
+                    Ticket.Add("To:Tuticorin");
+                    Ticket.Add("Date:16-11-2023");
+                    Ticket.Add("Mobile:987655679");
+                    foreach (var item in Ticket)
+                    {
+                        Console.WriteLine(item);
+                    }
+                    break;

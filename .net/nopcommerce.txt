@@ -1,0 +1,189 @@
+CATLOG
+---------------------------------------------
+PRODUCTS
+
+string Productname
+string Description
+string Full description
+string sku
+string categories
+string Manufacturers
+Bool Published
+string Product tags
+int GTIN
+int Manufacturer part number
+Bool Show on home page
+Bool visible individually
+string Customer roles
+string Limited to stores
+Enum Vendor
+Bool Require other products
+Bool Allow customer reviews
+Datetime Available start date
+Bool Mark as new
+string Admin comment
+Double Price
+Double Old Price
+Double Priduct cost
+Bool Disable buy button
+Bool Disable wishlist
+Bool Available for pre-order
+Bool call for price
+Bool Customer enter price
+Bool Base Price
+string Discounts
+Bool Tax exempt
+Enum Tax category
+Bool Telecommunications,broadcasting and electronic services
+Double weight
+Double Length
+Double Width
+Double Height
+Bool Free shipping
+Bool Ship seperately
+Double Additional shipping charge
+Bool Delevery date
+Enum Inventory method
+Double Minimun cart qty
+Double Maximum cart qty
+int Allowed quantities
+Bool Not returnable
+Bool is gift card
+Bool Downloadable product
+Bool Is rental
+Bool Recurring product
+string search engine friendly
+string Meta title
+string Meta keywords
+string Meta description
+
+API END POINTS
+Get:
+Search
+Go
+Download
+Post:
+AddNew
+Delete:
+Delete
+------------------------------------------------------
+CATEGORIES
+
+string Name
+string Description
+Enum Parent category
+int Display order
+
+API END POINTS
+Get:
+Search
+Download
+Post:
+AddNew
+Delete:
+Delete
+----------------------------------------------------------
+MANUFACTURERS
+
+string Name
+string Description 
+int Display order
+
+
+API END POINTS
+Get:
+Search
+Download
+Post:
+AddNew
+Delete:
+Delete
+-------------------------------------------------------------
+PRODUCT REVIEWS
+
+Datetime created from
+Datetime created to
+Enum Approved
+string Product
+string Message
+Edit:
+string Title
+string Review Text
+string Reply Text
+Bool Is approved
+
+
+API END POINTS
+Get:
+Search
+Download
+Update:
+Edit
+Delete:
+Delete
+-------------------------------------
+PRODUCT TAGS
+
+string Tag name
+Edit:
+string Tag name
+
+API END POINTS
+Get:
+Search
+Download
+Update:
+Edit
+Delete:
+Delete
+-------------------------------------------
+PRODUCT ATTRIBUTES
+
+Edit:
+string Name
+string Description 
+
+API END POINTS
+Get:
+Search
+Download
+Post 
+Addnew
+Update:
+Edit
+Delete:
+Delete
+---------------------------------------------
+CHECKOUT ATTRIBUTES
+Edit:
+string Name
+Enum Controltype
+Bool Required
+int Displayorder
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+	
+
+
+
+
+

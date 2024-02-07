@@ -1,0 +1,6 @@
+https://medium.com/@andytechdev/6-asp-net-core-open-source-projects-to-boost-your-practical-skills-a34807adaf93\
+
+https://linqsamples.com/  LINQ and lambda
+
+https://dotnettutorials.net/course/asp-net-core-web-api-tutorials/,
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0  api tutiorials
